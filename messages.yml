@@ -1,0 +1,8 @@
+welcome:
+  message: |
+    Приветствую, <player>
+  list:
+    - "1"
+    - "2"
+    - "3"
+    - "4"
