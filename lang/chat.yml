@@ -8,8 +8,8 @@ sender-to-target-format: "\uE326 Вы → {target}: {message}"
 target-to-sender-format: "\uE326{sender} → Вы: {message}"
 alert-format: "<red>[ВНИМАНИЕ] <white>{message}</white>"
 private-chat-info-message: >
-  "\uE326 Используйте <green>/tell <ник> <сообщение></green> для личного межсерверного чата
-  <newline>\uE326 Что бы переключить видимость используйте <green>/telltoggle</green>"
+  \uE326 Используйте <green>/tell <ник> <сообщение></green> для личного межсерверного чата
+  <newline>\uE326 Что бы переключить видимость используйте <green>/telltoggle</green>
 prefix: "<#FF5E1F>🌟</#FF5E1F><reset> » "
 command-cooldown-message: "Команда будет доступна через {time}"
 command-unavailable-message: "В данный момент команда не доступна"
