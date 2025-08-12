@@ -6,3 +6,34 @@ welcome:
     - "2"
     - "3"
     - "4"
+
+prefix: "<#FF5E1F>🌟</#FF5E1F><reset> » "
+
+game_stats: |-
+  <reset>Твоя статистика <#FF5E1F>{game_key}</#FF5E1F><reset> | <#FF5E1F>{game_mode_key}</#FF5E1F>
+  <reset>
+  <reset> | Время в игре: <#FF5E1F>{play_time}</#FF5E1F>
+  <reset> | Убийства: <#FF5E1F>{kills}</#FF5E1F>
+  <reset> | Смерти: <#FF5E1F>{deaths}</#FF5E1F>
+  <reset> | Победы: <#FF5E1F>{wins}</#FF5E1F>
+  <reset> | Поражения: <#FF5E1F>{losses}</#FF5E1F>
+  <reset> | Игр сыграно: <#FF5E1F>{games_played}</#FF5E1F>
+  <reset>
+
+battle_royale_stats: |-
+  <reset> | Пройдено блоков: <#FF5E1F>{blocks_walked}</#FF5E1F>
+  <reset> | Воскрешений союзников: <#FF5E1F>{revives_given}</#FF5E1F>
+  <reset> | Нанесено урона: <#FF5E1F>{damage_dealt}</#FF5E1F>
+  <reset> | Получено урона: <#FF5E1F>{damage_taken}</#FF5E1F>
+  <reset> | Скрафчено легендарных предметов: <#FF5E1F>{crafted_items}</#FF5E1F>
+  <reset>
+
+command_cooldown: "<reset>Команда будет доступна через <#FF5E1F>{time}</#FF5E1F>"
+command_unavailable: "<#FF1F1F>В данный момент команда не доступна</#FF1F1F>"
+invalid_usage: "<#FF1F1F>Неверное использование</#FF1F1F>"
+missing_permissions: "<#FF1F1F>У вас недостаточно прав</#FF1F1F>"
+player_only: "<#FF1F1F>Только для игроков</#FF1F1F>"
+
+usage_error_single: "<#FF1F1F>Используйте <white>{usage}"
+usage_error_list_header: "<#FF5E1F>Помощь по команде:"
+usage_error_list_item: "<gray>▪ <white>{usage}"
