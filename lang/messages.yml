@@ -1,6 +1,5 @@
 welcome:
-  message: |
-    Приветствую, <player>
+  message: "<yellow>Приветствую, <green><player>"
   list:
     - "1"
     - "2"
