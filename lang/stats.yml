@@ -11,7 +11,7 @@ game: |-
 
 battle_royale: |-
   <reset> | Пройдено блоков: <#FF5E1F><blocks_walked></#FF5E1F>
-  <reset> | Воскрешений союзников: <#FF5E1F><revives_given></#FF5E1F>
+  <reset> | Воскрешено союзников: <#FF5E1F><revives_given></#FF5E1F>
   <reset> | Нанесено урона: <#FF5E1F><damage_dealt></#FF5E1F>
   <reset> | Получено урона: <#FF5E1F><damage_taken></#FF5E1F>
   <reset> | Скрафчено легендарных предметов: <#FF5E1F><crafted_items></#FF5E1F>
