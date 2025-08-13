@@ -89,10 +89,7 @@ cooldown:
 craft:
   available:
     header: "<gold>Доступные крафты:"
-    item: >
-      <gray>- <yellow><item> <gray>(клик)
-      <hover:show_text><green>Нажми, чтобы скрафтить</green>
-      <click:run_command>/craft <id></click:run_command>
+    item: "<gray>- <yellow><item> <click:run_command:'/craft <id>'><gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover></click>"
   legendary: " <#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
   limit:
     player: " <#FF5E1F>▶ <white>Вы исчерпали свой лимит."
