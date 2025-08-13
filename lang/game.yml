@@ -27,6 +27,10 @@ stop: |
   <reset> <gray>| <white>Увидимся в следующий раз!
   <reset>
 
+sos:
+  confirm: " <#FF5E1F>▶ <white>Внимание, <green>подтвердите <white>запрос, за злоупотребление последует <red>наказание!"
+  send: " <#FF5E1F>▶ Запрос отправлен! Помощь в пути..."
+
 pre-start-teleport: " <#FF5E1F>▶ <white>Вы телепортированы на арену."
 
 pvp-true: " <#FF5E1F>▶ <white>PvP <#CFFF1F>включено<white>!"
@@ -87,6 +91,7 @@ cooldown:
   ready: "<gray>[<gold><item></gold><gray>] <white>Перезарядка окончена!"
 
 craft:
+  fail: "<red>У вас недостаточно ресурсов для создания этого предмета!"
   available:
     header: "<gold>Доступные крафты:"
     item: "<gray>- <yellow><item> <gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover></click>"
