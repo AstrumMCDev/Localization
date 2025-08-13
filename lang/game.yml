@@ -212,14 +212,14 @@ team:
     <gold>Команда <dark_gray>| <white>Информация о команде #<gray><id> (<color><gray>):
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
-  disband: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была расформирована."
+  disband: "<gold>Команды <#FF5E1F>▶ <white>Команда #<gray><id> была расформирована."
   only-leader-disband: "<red>Только лидер может расформировать команду."
-  chat-format: "<gold>Команды <dark_gray>| <gray><player>: <white><message>"
-  leader-death: "<gold>Команды <dark_gray>| <white>Лидер команды <gold><player> умер."
-  member-death: "<gold>Команды <dark_gray>| <white>Игрок команды <gold><player> умер."
-  leader-quit: "<red>Лидер команды <gold><player> вышел из игры."
-  member-quit: "<red>Ваш тиммейт <gold><player> вышел из игры"
-  team-death: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была полностью уничтожена!"
+  chat-format: "<gold>Команды <#FF5E1F>▶ <gray><player>: <white><message>"
+  leader-death: "<gold>Команды <#FF5E1F>▶ <white>Лидер команды <gold><player> <white>умер."
+  member-death: "<gold>Команды <#FF5E1F>▶ <white>Игрок команды <gold><player> <white>умер."
+  leader-quit: "<#FF5E1F>▶ <red>Лидер команды <player> вышел из игры."
+  member-quit: "<#FF5E1F>▶ <red>Ваш тиммейт <player> вышел из игры"
+  team-death: "<gold>Команды <#FF5E1F>▶ <white>Команда <gray>#<id> <white>была полностью уничтожена!"
 
 vote:
   empty: " <#FF5E1F>▶ <white>Голосование не началось!"
