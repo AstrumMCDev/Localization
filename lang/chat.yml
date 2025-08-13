@@ -6,7 +6,7 @@ staff-chat-format: "\uE327<player_name>: <message>"
 vip-chat-format: "\uE328<player_name>: <message>"
 sender-to-target-format: "\uE326 Вы → <target>: <message>"
 target-to-sender-format: "\uE326<sender> → Вы: <message>"
-alert-format: "<red>[ВНИМАНИЕ] <white><message></white>"
+alert-format: "<white><message></white>"
 private-chat-info-message: >
    Используйте <green>/tell <ник> <сообщение></green> для личного межсерверного чата
   <newline> Что бы переключить видимость используйте <green>/telltoggle</green>
