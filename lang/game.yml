@@ -1,24 +1,29 @@
 waiting: |
   <reset>
   <reset><gray>| <white>Ожидание игроков...
-  <reset><gray>| <white>Набрано <gold><players></gold>/<gold><needPlayers></gold>
+  <reset><gray>| <white>Набрано <gold><players></gold>/<gold><need_players></gold>
   <reset>
 
-waiting-actionbar: "<white>Игроков<gray>: <gold><players></gold>/<gold><needPlayers></gold>"
+waiting-actionbar: "<white>Игроков<gray>: <gold><players></gold>/<gold><need_players></gold>"
 
 countdown: "<gold><time></gold>;<white>До конца ожидания"
+timer-stop: |
+  
+  <red>Таймер остановлен, так как не достигнут минимум игроков!
 
 countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
 
+not-teaming: "<red>Тим - запрещён!"
+
 start: |
   <reset>
-  <reset><gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <white>началась!
+  <reset> <gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>началась!
   <reset> <gray>| <white>Победит сильнейший!
   <reset>
 
 stop: |
   <reset>
-  <reset><gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <white>закончилась!
+  <reset> <gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>закончилась!
   <reset> <gray>| <white>Увидимся в следующий раз!
   <reset>
 
@@ -33,7 +38,7 @@ end-close: " <#FF5E1F>▶ <white>Эндер мир закрыт"
 nether-close: " <#FF5E1F>▶ <white>Незер закрыт"
 
 kit-gived: " <#FF5E1F>▶ <white>Вы <#C5FF1F>получили <white>свой кит"
-
+only-spectating: "<red>Вы можете только следить за игрой"
 kick:
   death: "Вы умерли и выбыли из игры :("
   disqualified: "Вас выгнали из игры"
@@ -54,10 +59,19 @@ item:
   cannot-use: " <#FF5E1F>▶ <white>Вы не можете использовать этот предмет"
   head:
     use: " <#FF5E1F>▶ <white>Вы использовали голову!"
+    cooldown: "<gray>Задержка: <yellow><time> <gray>секунд"
   emerald-blade:
+    hold: "<red>Вы должны держать Изумрудный Клинок!"
     max-lvl: " <#FF5E1F>▶ <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
     need-amount: " <#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда"
     success-upgrade: " <#FF5E1F>▶ <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
+    gui: "<green>Улучшение Изумрудного Клинка"
+    confirm: "<green>Подтвердить улучшение"
+    info:
+      - "<white>Текущая острота: <yellow><current_level></yellow>"
+      - "<white>Следующий уровень: <yellow><next_level></yellow>"
+      - "<white>Стоимость: <green>32 изумруда за 1 уровень"
+      - "<white>Максимальный уровень: <red>8"
   dragon-katana:
     blocked: " <#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
   midas-sword:
@@ -75,14 +89,18 @@ cooldown:
 craft:
   available:
     header: "<gold>Доступные крафты:"
-    item: " <gray>- <yellow><item> <gray>(клик)"
-    hover: "<green>Нажми, чтобы скрафтить"
+    item: >
+      <gray>- <yellow><item> <gray>(клик)
+      <hover:show_text><green>Нажми, чтобы скрафтить</green>
+      <click:run_command>/craft <id></click:run_command>
   legendary: " <#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
   limit:
     player: " <#FF5E1F>▶ <white>Вы исчерпали свой лимит."
     server: " <#FF5E1F>▶ <white>Этот предмет уже скрафтили."
 
-timer: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀;<white>До начала игры"
+timer:
+  title: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
+  subtitle: "<white>До начала игры"
 
 block:
   elytra: " <#FF5E1F>▶ <white>Элитры запрещены"
@@ -115,7 +133,9 @@ stages:
     name: "Конец"
 
 deathmatch:
-  timer: "<time>;до начала"
+  timer:
+    title: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
+    subtitle: "<white>До исхода битвы"
 
 spec: " <#FF5E1F>▶ <white>Вы начали слежку за игроком <gold><player></gold>"
 
@@ -133,7 +153,8 @@ check:
 
 win:
   message: " <#FF5E1F>▶ <white>Вы выиграли битву!"
-  title: "<#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а;<white>Вы выиграли!"
+  title: "<#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а"
+  subtitle: "<white>Вы выиграли!"
 
 party:
   already-in-party: "<red>Вы уже в пати."
@@ -201,6 +222,25 @@ team:
   team-death: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была полностью уничтожена!"
 
 vote:
+  empty: " <#FF5E1F>▶ <white>Голосование не началось!"
   start: " <#FF5E1F>▶ <white>Голосование началось - /vote"
   end: " <#FF5E1F>▶ <white>Голосование закончилось, все команды получили бонусы и выбрали своих лидеров"
   leader: " <#FF5E1F>▶ <white>По итогам голосования лидером команды становится <gold><player></gold>"
+
+bonus:
+  title: ""
+  subtitle: "<green>Бонус - <bonus>"
+
+revive:
+  too-far-from-center: "<red>Вы слишком далеко от центра!"
+  no-team: "<red>У вас нет команды"
+  cannot-revive-player: "<red>Этого игрока нельзя воскресить"
+  only-teammate: "<red>Воскресить можно только тиммейта"
+  not-enough-hearts: "<red>У вас недостаточно сердец для воскрешения (нужно 5)"
+  broadcast: "<white>Игрок <green><player></green> <white>был возрожден!"
+  success: "<green>Вы успешно воскресили <yellow><target></yellow>"
+  target-success: "<green>Вы были воскрешены игроком <yellow><player></yellow>"
+
+play-again: |
+  
+  <red>В этот раз не повезло :( Хотите сыграть ещё - <click:run_command:'<command>'><hover:show_text:'<green>Сыграть ещё'>[жми сюда]</hover></click>
