@@ -131,18 +131,15 @@ axolotlboots:
 
 meltpickaxe:
   name: "<light_purple>Кирка плавильщика"
-  lore:
-    - ""
+  lore: []
 
 woodaxe:
   name: "<light_purple>Топор дровосека"
-  lore:
-    - ""
+  lore: []
 
 lightsword:
   name: "<light_purple>Облегченный незеритовый меч"
-  lore:
-    - ""
+  lore: []
 
 trailkit:
   name: "<light_purple>Набор следопыта"
@@ -180,3 +177,21 @@ void_staff:
     - "<gray>Порталы исчезают через 40 сек."
     - "<gray>Кулдаун: 40 сек. (притяжение), 2 мин. (портал)"
     - "<dark_gray>Нерушимый"
+
+spawn_item:
+  name: "<green>Вернуться на спавн"
+  lore:
+    - ""
+    - "<gray>Нажмите, чтобы вернуться на спавн"
+
+leave_lobby:
+  name: "<red>Выйти в хаб"
+  lore:
+    - ""
+    - "<gray>Нажмите, чтобы выйти в главный хаб"
+
+team_select:
+  name: "<green>Выбор команды"
+  lore:
+    - ""
+    - "<gray>Нажмите, чтобы выбрать команду"
