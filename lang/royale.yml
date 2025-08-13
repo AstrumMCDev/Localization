@@ -1,0 +1,206 @@
+waiting: |
+  <reset>
+  <reset><gray>| <white>Ожидание игроков...
+  <reset><gray>| <white>Набрано <gold><players></gold>/<gold><needPlayers></gold>
+  <reset>
+
+waiting-actionbar: "<white>Игроков<gray>: <gold><players></gold>/<gold><needPlayers></gold>"
+
+countdown: "<gold><time></gold>;<white>До конца ожидания"
+
+countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
+
+start: |
+  <reset>
+  <reset><gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <white>началась!
+  <reset> <gray>| <white>Победит сильнейший!
+  <reset>
+
+stop: |
+  <reset>
+  <reset><gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <white>закончилась!
+  <reset> <gray>| <white>Увидимся в следующий раз!
+  <reset>
+
+pre-start-teleport: " <#FF5E1F>▶ <white>Вы телепортированы на арену."
+
+pvp-true: " <#FF5E1F>▶ <white>PvP <#CFFF1F>включено<white>!"
+pvp-false: " <#FF5E1F>▶ <white>PvP <#FF551F>выключено<white>!"
+border-shrink: " <#FF5E1F>▶ <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
+death-spectator: " <#FF5E1F>▶ <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
+
+end-close: " <#FF5E1F>▶ <white>Эндер мир закрыт"
+nether-close: " <#FF5E1F>▶ <white>Незер закрыт"
+
+kit-gived: " <#FF5E1F>▶ <white>Вы <#C5FF1F>получили <white>свой кит"
+
+kick:
+  death: "Вы умерли и выбыли из игры :("
+  disqualified: "Вас выгнали из игры"
+  is-active: "Игра уже идет, выберите другой режим"
+  full-server: "<white>Сервер забит, зайти могут только <yellow><bold>VIP <white>игроки!"
+
+already-stop: " <#FF5E1F>▶ <white>Игра не запущена!"
+stage-notification: " <#FF5E1F>▶ <white>До следующей стадии <#1F9BFF><time></#1F9BFF>"
+
+sender:
+  start: " <#FF5E1F>▶ <white>Вы запустили быструю игру"
+  stop: " <#FF5E1F>▶ <white>Вы остановили игру"
+  kick: " <#FF5E1F>▶ <white>Вы кикнули <gold><player></gold> из игры"
+
+player-death: " <#FF5E1F>▶ <white>Один из игроков умер! Осталось <#FFB01F><players></#FFB01F><white>!"
+
+item:
+  cannot-use: " <#FF5E1F>▶ <white>Вы не можете использовать этот предмет"
+  head:
+    use: " <#FF5E1F>▶ <white>Вы использовали голову!"
+  emerald-blade:
+    max-lvl: " <#FF5E1F>▶ <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
+    need-amount: " <#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда"
+    success-upgrade: " <#FF5E1F>▶ <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
+  dragon-katana:
+    blocked: " <#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  midas-sword:
+    sharpness-up: " <#FF5E1F>▶ <white>Меч Мидаса усилился!"
+  poseidon-trident:
+    lightning-blocked: " <#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  ender-bow:
+    mode-switched: " <#FF5E1F>▶ <white>Режим переключен"
+
+cooldown:
+  started: " <#FF5E1F>▶ <white>Задержка для <gold><item></gold><gray>: <yellow><time> <white>сек"
+  remaining: " <#FF5E1F>▶ <white>Задержка для <gold><item></gold><gray>: <yellow><time> <white>сек"
+  ready: "<gray>[<gold><item></gold><gray>] <white>Перезарядка окончена!"
+
+craft:
+  available:
+    header: "<gold>Доступные крафты:"
+    item: " <gray>- <yellow><item> <gray>(клик)"
+    hover: "<green>Нажми, чтобы скрафтить"
+  legendary: " <#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
+  limit:
+    player: " <#FF5E1F>▶ <white>Вы исчерпали свой лимит."
+    server: " <#FF5E1F>▶ <white>Этот предмет уже скрафтили."
+
+timer: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀;<white>До начала игры"
+
+block:
+  elytra: " <#FF5E1F>▶ <white>Элитры запрещены"
+  shield: " <#FF5E1F>▶ <white>Щиты запрещены"
+  mace: " <#FF5E1F>▶ <white>Булава запрещена"
+
+stages:
+  border-shrink: "Барьер сужается: <time>"
+  waiting:
+    name: "Ожидание"
+  pre-start:
+    name: "Подготовка"
+  start:
+    name: "Начало игры"
+  mining:
+    name: "Майнинг"
+  pre-dm:
+    name: "Предезматч"
+  deathmatch:
+    name: "Дезматч"
+  narrowing:
+    name: "Сужение"
+  nether-open:
+    name: "Открытие ада"
+  end-open:
+    name: "Открытие энда"
+  close:
+    name: "Финал"
+  stop:
+    name: "Конец"
+
+deathmatch:
+  timer: "<time>;до начала"
+
+spec: " <#FF5E1F>▶ <white>Вы начали слежку за игроком <gold><player></gold>"
+
+check:
+  sender: " <#FF5E1F>▶ <white>Вы вызвали на проверку игроку <gold><player></gold>"
+  target: |
+    <reset>
+    <reset> <#FF5E1F>Вы вызваны на проверку читов
+    <reset>
+    <reset> <white>вам необходимо отправить модератору
+    <reset> <white>свой <dark_aqua><bold>Discord <white>или <red><bold>AnyDesk<white>.
+    <reset>
+    <reset> <white>Команда - <#FF5E1F>/msg <player> <дискорд/анидеск>
+    <reset>
+
+win:
+  message: " <#FF5E1F>▶ <white>Вы выиграли битву!"
+  title: "<#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а;<white>Вы выиграли!"
+
+party:
+  already-in-party: "<red>Вы уже в пати."
+  created: "<white>Вы создали пати! Пригласить людей - /party invite <игрок>"
+  not-in-party: "<red>Вы не в пати."
+  only-leader-invite: "<red>Только лидер может приглашать."
+  cannot-invite-self: "<red>Вы не можете пригласить себя!"
+  max-members: "<red>Вы достигли лимит по приглашенным участникам!"
+  target-already-in-party: "<red>Игрок уже в пати."
+  player-invited: "<yellow>Игрок <gold><player></gold> приглашён в пати."
+  you-were-invited: "<yellow>Вас пригласили в пати игрока <gold><player></gold>. Напишите <green>/party accept</green> или <red>/party decline</red>"
+  only-leader-kick: "<red>Только лидер может исключать."
+  target-not-in-party: "<red>Игрок не в вашей пати."
+  cannot-kick-self: "<red>Вы не можете исключить себя."
+  player-kicked: "<green>Игрок <gold><player></gold> исключён из пати."
+  player-leave: "<green>Игрок <gold><player></gold> вышел из пати."
+  you-were-kicked: "<red>Вы были исключены из пати."
+  you-were-leave: "<red>Вы вышли из пати."
+  no-invites: "<red>У вас нет приглашений."
+  not-exist-anymore: "<red>Команда больше не существует."
+  player-joined: "<green>Игрок <gold><player></gold> вступил в команду."
+  invite-declined: "<red>Вы отклонили приглашение."
+  info: |
+    <light_purple>Пати <dark_gray>| <white>Информация о пати:
+    <reset> <gray>• <white>Лидер: <gray><leader>
+    <reset> <gray>• <white>Участники: <gray><members>
+  disband: "<white>Пати была расформирована."
+  only-leader-disband: "<red>Только лидер может расформировать команду."
+  leader-quit: "<red>Лидер пати вышел из игры. Новым лидером становится <gray><leader>"
+  member-quit: "<red>Участник пати <gray><member> вышел из игры"
+
+team:
+  already-in-team: "<red>Вы уже в команде."
+  no-colors-available: "<red>Не удалось создать команду. Нет доступных цветов."
+  created: "<white>Вы создали команду #<gray><id> <gray>(<color><gray>)"
+  not-in-team: "<red>Вы не в команде."
+  only-leader-invite: "<red>Только лидер может приглашать."
+  cannot-invite-self: "<red>Вы не можете пригласить себя!"
+  max-members: "<red>Вы достигли лимит по приглашенным участникам!"
+  target-already-in-team: "<red>Игрок уже в команде."
+  player-invited: "<yellow>Игрок <gold><player></gold> приглашён в команду."
+  you-were-invited: "<yellow>Вас пригласили в команду #<gray><id>. Напишите <green>/team accept</green> или <red>/team decline</red>"
+  only-leader-kick: "<red>Только лидер может исключать."
+  target-not-in-team: "<red>Игрок не в вашей команде."
+  cannot-kick-self: "<red>Вы не можете исключить себя."
+  player-kicked: "<green>Игрок <gold><player></gold> исключён из команды."
+  player-leave: "<green>Игрок <gold><player></gold> вышел из команды."
+  you-were-kicked: "<red>Вы были исключены из команды."
+  you-were-leave: "<red>Вы вышли из команды."
+  no-invites: "<red>У вас нет приглашений."
+  not-exist-anymore: "<red>Команда больше не существует."
+  player-joined: "<green>Игрок <gold><player></gold> вступил в команду."
+  invite-declined: "<red>Вы отклонили приглашение."
+  info: |
+    <gold>Команда <dark_gray>| <white>Информация о команде #<gray><id> (<color><gray>):
+    <reset> <gray>• <white>Лидер: <gray><leader>
+    <reset> <gray>• <white>Участники: <gray><members>
+  disband: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была расформирована."
+  only-leader-disband: "<red>Только лидер может расформировать команду."
+  chat-format: "<gold>Команды <dark_gray>| <gray>{player}: <white>{message}"
+  leader-death: "<gold>Команды <dark_gray>| <white>Лидер команды <gold>{player} умер."
+  member-death: "<gold>Команды <dark_gray>| <white>Игрок команды <gold>{player} умер."
+  leader-quit: "<red>Лидер команды <gold>{player} вышел из игры."
+  member-quit: "<red>Ваш тиммейт <gold>{player} вышел из игры"
+  team-death: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была полностью уничтожена!"
+
+vote:
+  start: " <#FF5E1F>▶ <white>Голосование началось - /vote"
+  end: " <#FF5E1F>▶ <white>Голосование закончилось, все команды получили бонусы и выбрали своих лидеров"
+  leader: " <#FF5E1F>▶ <white>По итогам голосования лидером команды становится <gold><player></gold>"
