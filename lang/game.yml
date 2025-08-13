@@ -214,11 +214,11 @@ team:
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была расформирована."
   only-leader-disband: "<red>Только лидер может расформировать команду."
-  chat-format: "<gold>Команды <dark_gray>| <gray>{player}: <white>{message}"
-  leader-death: "<gold>Команды <dark_gray>| <white>Лидер команды <gold>{player} умер."
-  member-death: "<gold>Команды <dark_gray>| <white>Игрок команды <gold>{player} умер."
-  leader-quit: "<red>Лидер команды <gold>{player} вышел из игры."
-  member-quit: "<red>Ваш тиммейт <gold>{player} вышел из игры"
+  chat-format: "<gold>Команды <dark_gray>| <gray><player>: <white><message>"
+  leader-death: "<gold>Команды <dark_gray>| <white>Лидер команды <gold><player> умер."
+  member-death: "<gold>Команды <dark_gray>| <white>Игрок команды <gold><player> умер."
+  leader-quit: "<red>Лидер команды <gold><player> вышел из игры."
+  member-quit: "<red>Ваш тиммейт <gold><player> вышел из игры"
   team-death: "<gold>Команды <dark_gray>| <white>Команда #<gray><id> была полностью уничтожена!"
 
 vote:
