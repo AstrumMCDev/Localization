@@ -214,7 +214,7 @@ team:
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<gold>Команды <#FF5E1F>▶ <white>Команда #<gray><id> была расформирована."
   only-leader-disband: "<red>Только лидер может расформировать команду."
-  chat-format: "\uE325<player_name><reset>: <message>"
+  chat-format: "\uE325<player><reset>: <message>"
   leader-death: "<gold>Команды <#FF5E1F>▶ <white>Лидер команды <gold><player> <white>умер."
   member-death: "<gold>Команды <#FF5E1F>▶ <white>Игрок команды <gold><player> <white>умер."
   leader-quit: "<#FF5E1F>▶ <red>Лидер команды <player> вышел из игры."
