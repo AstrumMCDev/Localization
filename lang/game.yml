@@ -243,4 +243,4 @@ revive:
 
 play-again: |
   
-  <red>В этот раз не повезло :( Хотите сыграть ещё - <hover:show_text:'<green>Сыграть ещё'>[жми сюда]</hover></click>
+  <#FF5E1F>▶ <white>В этот раз не повезло :( Хотите сыграть ещё - <hover:show_text:'<green>Сыграть ещё'>[жми сюда]</hover>
