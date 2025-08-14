@@ -132,15 +132,18 @@ axolotlboots:
 
 meltpickaxe:
   name: "<light_purple>Кирка плавильщика"
-  lore: []
+  lore:
+    - ""
 
 woodaxe:
   name: "<light_purple>Топор дровосека"
-  lore: []
+  lore:
+    - ""
 
 lightsword:
   name: "<light_purple>Облегченный незеритовый меч"
-  lore: []
+  lore:
+    - ""
 
 trailkit:
   name: "<light_purple>Набор следопыта"

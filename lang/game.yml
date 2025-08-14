@@ -94,7 +94,7 @@ craft:
   fail: "<red>У вас недостаточно ресурсов для создания этого предмета!"
   available:
     header: "<gold>Доступные крафты:"
-    item: "<gray>- <yellow><item> <gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover></click>"
+    item: "<gray>- <yellow><item> <gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover>"
   legendary: " <#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
   limit:
     player: " <#FF5E1F>▶ <white>Вы исчерпали свой лимит."
