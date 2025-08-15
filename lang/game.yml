@@ -154,18 +154,18 @@ check:
     <reset>
 
 win:
-  message: " 👑 <white>Вы выиграли битву!"
+  message: "  <white>Вы выиграли битву!"
   title: "   <#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а"
   subtitle: "<white>Вы выиграли!"
   summary: |
     <reset>
     <bold><#FFE36C>И<#FFD95C>Т<#FFCC51>О<#FFBF45>Г<#FFB33A>И <#FFA62E>М<#FF9A23>А<#FF8D17>Т<#FF810C>Ч<#FF7500>А
     <reset>
-    <#AFAFAF>👑 Победитель: <#55FF55><winner>
+    <#AFAFAF> Победитель: <#55FF55><winner>
     <reset>
     <#AFAFAF>Лучшие игроки матча:
-     <#FFC53D> Легендарный мастер: <#FFFFFF><legend_name> <#AFAFAF>— <#FFC53D><legend_count> <#FFFFFF>легендарок
-     <#FF5555> Серийный убийца: <#FFFFFF><killer_name> <#AFAFAF>— <#FF5555><kills> <#FFFFFF>убийств
+       <#FFC53D> Легендарный мастер: <#FFFFFF><legend_name> <#AFAFAF>— <#FFC53D><legend_count> <#FFFFFF>легендарок
+     <#FF5555> Серийный убийца: <#FFFFFF><killer_name> <#AFAFAF>— <#FF5555><kills> <#FFFFFF>убийств
     <reset>
 
 party:
