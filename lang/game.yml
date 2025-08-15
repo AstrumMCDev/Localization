@@ -57,7 +57,7 @@ sender:
   stop: "  <white>Вы остановили игру"
   kick: "  <white>Вы кикнули <gold><player></gold> из игры"
 
-player-death: "  <white>Один из игроков умер! Осталось <#FFB01F><players></#FFB01F><white>!"
+player-death: "  <white>Один из игроков умер! Осталось <#FFB01F><players></#FFB01F><white>!"
 
 item:
   cannot-use: "  <white>Вы не можете использовать этот предмет"
