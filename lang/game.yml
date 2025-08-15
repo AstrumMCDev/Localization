@@ -137,7 +137,7 @@ stages:
 deathmatch:
   timer:
     title: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
-    subtitle: " <white>До исхода битвы"
+    subtitle: "<white>До исхода битвы "
 
 spec: "  <white>Вы начали слежку за игроком <gold><player></gold>"
 
@@ -227,11 +227,11 @@ team:
   disband: "<white> Команда #<gray><id> была расформирована."
   only-leader-disband: "<red> Только лидер может расформировать команду."
   chat-format: "<player><reset>: <message>"
-  leader-death: "<white> Лидер команды <gold><player> <white>умер."
-  member-death: "<white> Игрок команды <gold><player> <white>умер."
-  leader-quit: "<red> Лидер команды <player> вышел из игры."
-  member-quit: "<red> Ваш тиммейт <player> вышел из игры"
-  team-death: "<white> Команда <gray>#<id> <white>была полностью уничтожена!"
+  leader-death: " <white> Лидер команды <gold><player> <white>умер."
+  member-death: " <white> Игрок команды <gold><player> <white>умер."
+  leader-quit: " <red> Лидер команды <player> вышел из игры."
+  member-quit: " <red> Ваш тиммейт <player> вышел из игры"
+  team-death: " <white> Команда <gray>#<id> <white>была полностью уничтожена!"
 
 vote:
   empty: "  <white>Голосование не началось!"
