@@ -159,7 +159,7 @@ win:
   subtitle: "<white>Вы выиграли!"
   summary: |
     <reset>
-    <#FFE36C>И<#FFD95C>Т<#FFCC51>О<#FFBF45>Г<#FFB33A>И <#FFA62E>М<#FF9A23>А<#FF8D17>Т<#FF810C>Ч<#FF7500>А
+    <bold><#FFE36C>И<#FFD95C>Т<#FFCC51>О<#FFBF45>Г<#FFB33A>И <#FFA62E>М<#FF9A23>А<#FF8D17>Т<#FF810C>Ч<#FF7500>А
     <reset>
     <#AFAFAF>Победитель: <#55FF55><winner>
     <reset>
