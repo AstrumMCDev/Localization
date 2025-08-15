@@ -157,6 +157,13 @@ win:
   message: " <#FF5E1F>▶ <white>Вы выиграли битву!"
   title: "<#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а"
   subtitle: "<white>Вы выиграли!"
+  summary: |
+    <reset>
+    <gray>Победитель: <#55FF55><bold><winner>
+    <reset>
+    <gray>» <#FFAA00><bold>Легендарный мастер:</bold> <white><legend> <gray>— <#FFAA00><bold><legend_count> <white>легендарных предметов
+    <gray>» <#FF5555><bold>Серийный убийца:</bold> <white><killer> <gray>— <#FF5555><bold><kills> <white>убийств
+    <reset>
 
 party:
   already-in-party: "<red>Вы уже в пати."
