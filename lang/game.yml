@@ -28,7 +28,7 @@ stop: |
   <reset>
 
 sos:
-  confirm: "  <white>Внимание, <green>подтвердите <white>запрос, за злоупотребление последует <red>наказание!"
+  confirm: "  <white>Внимание, <green>подтвердите <white>запрос, за злоупотребление последует <red>наказание!"
   send: "  Запрос отправлен! Помощь в пути..."
 
 pre-start-teleport: "  <white>Вы телепортированы на арену."
@@ -142,10 +142,10 @@ deathmatch:
 spec: "  <white>Вы начали слежку за игроком <gold><player></gold>"
 
 check:
-  sender: "  <white>Вы вызвали на проверку игроку <gold><player></gold>"
+  sender: " <white>Вы вызвали на проверку игроку <gold><player></gold>"
   target: |
     <reset>
-    <reset>  <#FF5E1F>Вы вызваны на проверку читов
+    <reset>  <#FF5E1F>Вы вызваны на проверку читов
     <reset>
     <reset> <white>вам необходимо отправить модератору
     <reset> <white>свой <dark_aqua><bold> Discord <white>или <red><bold>AnyDesk<white>.
