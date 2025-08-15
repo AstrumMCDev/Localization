@@ -159,10 +159,13 @@ win:
   subtitle: "<white>Вы выиграли!"
   summary: |
     <reset>
-    <gray>Победитель: <#55FF55><bold><winner>
+    <#FFE36C>И<#FFD95C>Т<#FFCC51>О<#FFBF45>Г<#FFB33A>И <#FFA62E>М<#FF9A23>А<#FF8D17>Т<#FF810C>Ч<#FF7500>А
     <reset>
-    <gray>» <#FFAA00><bold>Легендарный мастер:</bold> <white><legend> <gray>— <#FFAA00><bold><legend_count> <white>легендарных предметов
-    <gray>» <#FF5555><bold>Серийный убийца:</bold> <white><killer> <gray>— <#FF5555><bold><kills> <white>убийств
+    <#AFAFAF>Победитель: <#55FF55><winner>
+    <reset>
+    <#AFAFAF>Лучшие игроки матча:
+    <#FFC53D>» Легендарный мастер: <#FFFFFF><legend_name> <#AFAFAF>— <#FFC53D><legend_count> <#FFFFFF>легендарных предметов
+    <#FF5555>» Серийный убийца: <#FFFFFF><killer_name> <#AFAFAF>— <#FF5555><kills> <#FFFFFF>убийств
     <reset>
 
 party:
