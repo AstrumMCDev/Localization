@@ -17,8 +17,8 @@ not-teaming: "<red> Тим - запрещён!"
 
 start: |
   <reset>
-  <reset> <gray>|  <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>началась!
-  <reset> <gray>|  <white>Победит сильнейший!
+  <reset> <gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>началась!
+  <reset> <gray>| <white>Победит сильнейший!
   <reset>
 
 stop: |
@@ -35,7 +35,7 @@ pre-start-teleport: "  <white>Вы телепортированы на аре
 
 pvp-true: "  <white>PvP <#CFFF1F>включено<white>!"
 pvp-false: "  <white>PvP <#FF551F>выключено<white>!"
-border-shrink: "  <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
+border-shrink: " <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
 death-spectator: "  <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
 
 end-close: "  <white>Эндер мир закрыт"
@@ -65,11 +65,11 @@ item:
     use: "  <white>Вы использовали голову!"
     cooldown: "<gray> Задержка: <yellow><time> <gray>секунд"
   emerald-blade:
-    hold: "<red> Вы должны держать Изумрудный Клинок!"
-    max-lvl: "  <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
-    need-amount: "  <white>Для улучшения нужно <#C5FF1F>64 изумруда"
-    success-upgrade: "  <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
-    gui: " <green>Улучшение Изумрудного Клинка"
+    hold: " <red>Вы должны держать Изумрудный Клинок! "
+    max-lvl: " <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
+    need-amount: " <white>Для улучшения нужно <#C5FF1F>64 изумруда"
+    success-upgrade: " <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
+    gui: "<green>Улучшение Изумрудного Клинка"
     confirm: "<green>Подтвердить улучшение"
     info:
       - "<white>Текущая острота: <yellow><current_level></yellow>"
@@ -77,13 +77,13 @@ item:
       - "<white>Стоимость: <green>32 изумруда за 1 уровень"
       - "<white>Максимальный уровень: <red>8"
   dragon-katana:
-    blocked: "  <white>Нельзя телепортироваться в блоки!"
+    blocked: " <white>Нельзя телепортироваться в блоки!"
   midas-sword:
-    sharpness-up: "  <white>Меч Мидаса усилился!"
+    sharpness-up: " <white>Меч Мидаса усилился!"
   poseidon-trident:
-    lightning-blocked: "  <white>Нельзя телепортироваться в блоки!"
+    lightning-blocked: " <white>Нельзя телепортироваться в блоки!"
   ender-bow:
-    mode-switched: "  <white>Режим переключен"
+    mode-switched: " <white>Режим переключен"
 
 cooldown:
   started: "  <white>Задержка для <gold><item></gold><gray>: <yellow><time> <white>сек"
