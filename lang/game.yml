@@ -164,7 +164,7 @@ win:
     <#AFAFAF> Победитель: <#55FF55><winner>
     <reset>
     <#AFAFAF>Лучшие игроки матча:
-     <#FFC53D> Легендарный мастер: <#FFFFFF><legend_name> <#AFAFAF>— <#FFC53D><legend_count> <#FFFFFF>легендарок
+      <#FFC53D>Легендарный мастер: <#FFFFFF><legend_name> <#AFAFAF>— <#FFC53D><legend_count> <#FFFFFF>легендарок
      <#FF5555> Серийный убийца: <#FFFFFF><killer_name> <#AFAFAF>— <#FF5555><kills> <#FFFFFF>убийств
     <reset>
 
