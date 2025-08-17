@@ -281,4 +281,4 @@ play-again: |
    <white>В этот раз не повезло :( Хотите сыграть ещё - <hover:show_text:'<green>Сыграть ещё'>[жми сюда]</hover>
 
 kill:
-  bar: "<st><victim></st> | <reset><kills>убийств "
+  bar: "<st><victim></st> | Всего <green>-<reset><kills> <reset>"
