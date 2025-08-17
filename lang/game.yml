@@ -179,6 +179,7 @@ party:
   max-members: "<red> Вы достигли лимит по приглашенным участникам!"
   target-already-in-party: "<red> Игрок уже в пати."
   player-invited: "<yellow> Игрок <gold><player></gold> приглашён в пати."
+  target-already-invited: "<red>Игрок <player> уже приглашён в пати."
   you-were-invited: |
     <reset>
                                 <#FFE36C>П<#FFD95C>р<#FFCC51>и<#FFBF45>г<#FFB33A>л<#FFA62E>а<#FF9A23>ш<#FF8D17>е<#FF810C>н<#FF7500>и<#FF6A00>е <#FF5E00>в <#FF5200>п<#FF4700>а<#FF3B00>т<#FF3000>и
