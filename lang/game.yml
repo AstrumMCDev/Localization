@@ -187,7 +187,7 @@ party:
     <reset>
                             <#AFAFAF>Выберите действие:
     <reset>
-                                <accept_button>  <decline_button>
+                            <accept_button>  <decline_button>
     <reset>
   only-leader-kick: "<red> Только лидер может исключать."
   target-not-in-party: "<red> Игрок не в вашей пати."
@@ -197,14 +197,14 @@ party:
   you-were-kicked: "<red> Вы были исключены из пати."
   you-were-leave: "<red> Вы вышли из пати."
   no-invites: "<red> У вас нет приглашений."
-  not-exist-anymore: "<red> Команда больше не существует."
-  player-joined: "<green> Игрок <gold><player></gold> вступил в команду."
+  not-exist-anymore: "<red> Пати больше не существует."
+  player-joined: "<green> Игрок <gold><player></gold> вступил в пати."
   invite-declined: "<red> Вы отклонили приглашение."
   info: |
     <light_purple>Пати <dark_gray>| <white>Информация о пати:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
-  disband: "<white> Пати была расформирована."
+  disband: "<white>Пати была расформирована."
   only-leader-disband: "<red> Только лидер может расформировать команду."
   leader-quit: "<red> Лидер пати вышел из игры. Новым лидером становится <gray><leader>"
   member-quit: "<red> Участник пати <gray><member> вышел из игры"
