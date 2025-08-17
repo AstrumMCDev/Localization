@@ -169,6 +169,8 @@ win:
     <reset>
 
 party:
+  leader-warped: "<white> Лидер команды <green><player> переместил всех участников за ним."
+  chat: "<light_purple>Пати <dark_gray>| <white><player><reset>: <message>"
   already-in-party: "<red> Вы уже в пати."
   created: "<white> Вы создали пати! Пригласить людей - /party invite <игрок>"
   not-in-party: "<red> Вы не в пати."
@@ -190,7 +192,7 @@ party:
   player-joined: "<green> Игрок <gold><player></gold> вступил в команду."
   invite-declined: "<red> Вы отклонили приглашение."
   info: |
-    <light_purple> Пати <dark_gray>| <white>Информация о пати:
+    <light_purple>Пати <dark_gray>| <white>Информация о пати:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white> Пати была расформирована."
