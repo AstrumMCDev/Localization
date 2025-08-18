@@ -169,6 +169,9 @@ win:
     <reset>
 
 party:
+  not-public-party: "<red> Пати не публичная!"
+  only-leader: "<red> Только лидер может менять статус пати."
+  status-change: "<light_purple>Пати <dark_gray>| <white><player> изменил статус пати на <status>"
   leader-warped: "<white> Лидер команды <green><player> переместил всех участников за ним."
   chat: "<light_purple>Пати <dark_gray>| <white><player><reset>: <message>"
   already-in-party: "<red> Вы уже в пати."
