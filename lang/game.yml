@@ -171,6 +171,7 @@ win:
 party:
   not-public-party: " <red>Эта тусовка не публичная!"
   only-leader: "<red> Только лидер может менять статус тусовки."
+  only-leader-tp: "<red> Только лидер может телепортировать к себе участников"
   status-change: "<light_purple>Тусовка <dark_gray>| <white><player> изменил статус тусовки на <status>"
   leader-warped: "<white> Лидер команды <green><player> переместил всех участников за ним."
   chat: "<light_purple>Тусовка <dark_gray>| <white><player><reset>: <message>"
@@ -241,7 +242,6 @@ team:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white> Команда #<gray><id> была расформирована."
-  only-leader-tp: "<red> Только лидер может телепортировать к себе участников"
   only-leader-disband: "<red> Только лидер может расформировать команду."
   chat-format: "<player><reset>: <message>"
   leader-death: " <white> Лидер команды <gold><player> <white>умер."
