@@ -241,6 +241,7 @@ team:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white> Команда #<gray><id> была расформирована."
+  only-leader-tp: "<red> Только лидер может телепортировать к себе участников"
   only-leader-disband: "<red> Только лидер может расформировать команду."
   chat-format: "<player><reset>: <message>"
   leader-death: " <white> Лидер команды <gold><player> <white>умер."
