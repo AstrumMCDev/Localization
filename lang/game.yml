@@ -214,6 +214,7 @@ party:
   member-quit: "<red> Участник пати <gray><member> вышел из игры"
 
 team:
+  error-full: "<red>Не получилось автоматически закинуть игрока <player> с тусовки в команду, поскольку она полная!"
   already-in-team: "<red> Вы уже в команде."
   no-colors-available: "<red> Не удалось создать команду. Нет доступных цветов."
   created: "<white> Вы создали команду #<gray><id> <gray>(<color><gray>)"
