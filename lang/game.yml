@@ -169,49 +169,49 @@ win:
     <reset>
 
 party:
-  not-public-party: "<red> Пати не публичная!"
-  only-leader: "<red> Только лидер может менять статус пати."
-  status-change: "<light_purple>Пати <dark_gray>| <white><player> изменил статус пати на <status>"
+  not-public-party: " <red>Эта тусовка не публичная!"
+  only-leader: "<red> Только лидер может менять статус тусовки."
+  status-change: "<light_purple>Тусовка <dark_gray>| <white><player> изменил статус тусовки на <status>"
   leader-warped: "<white> Лидер команды <green><player> переместил всех участников за ним."
-  chat: "<light_purple>Пати <dark_gray>| <white><player><reset>: <message>"
-  already-in-party: "<red> Вы уже в пати."
-  created: "<white> Вы создали пати! Пригласить людей - /party invite <игрок>"
-  not-in-party: "<red> Вы не в пати."
+  chat: "<light_purple>Тусовка <dark_gray>| <white><player><reset>: <message>"
+  already-in-party: "<red> Вы уже в тусовке."
+  created: "<white> Вы создали тусовку! Пригласить людей - /party invite <игрок>"
+  not-in-party: "<red> Вы не в тусовке."
   only-leader-invite: "<red> Только лидер может приглашать."
   cannot-invite-self: "<red> Вы не можете пригласить себя!"
   max-members: "<red> Вы достигли лимит по приглашенным участникам!"
-  target-already-in-party: "<red> Игрок уже в пати."
-  player-invited: "<yellow> Игрок <gold><player></gold> приглашён в пати."
-  target-already-invited: "<red>Игрок <player> уже приглашён в пати."
+  target-already-in-party: "<red> Игрок уже в тусовке."
+  player-invited: "<yellow> Игрок <gold><player></gold> приглашён в тусовку."
+  target-already-invited: "<red>Игрок <player> уже приглашён в тусовку."
   you-were-invited: |
     <reset>
                                 <#FFE36C>П<#FFD95C>р<#FFCC51>и<#FFBF45>г<#FFB33A>л<#FFA62E>а<#FF9A23>ш<#FF8D17>е<#FF810C>н<#FF7500>и<#FF6A00>е <#FF5E00>в <#FF5200>п<#FF4700>а<#FF3B00>т<#FF3000>и
     <reset>
-                     <#AFAFAF>Игрок <#FFD166><player> <#AFAFAF>пригласил вас в пати.
+                     <#AFAFAF>Игрок <#FFD166><player> <#AFAFAF>пригласил вас в тусовку.
     <reset>
                             <#AFAFAF>Выберите действие:
     <reset>
                             <accept_button>  <decline_button>
     <reset>
   only-leader-kick: "<red> Только лидер может исключать."
-  target-not-in-party: "<red> Игрок не в вашей пати."
+  target-not-in-party: "<red> Игрок не в вашей тусовке."
   cannot-kick-self: "<red> Вы не можете исключить себя."
-  player-kicked: "<green> Игрок <gold><player></gold> исключён из пати."
-  player-leave: "<green> Игрок <gold><player></gold> вышел из пати."
-  you-were-kicked: "<red> Вы были исключены из пати."
-  you-were-leave: "<red> Вы вышли из пати."
+  player-kicked: "<green> Игрок <gold><player></gold> исключён из тусовки."
+  player-leave: "<green> Игрок <gold><player></gold> вышел из тусовки."
+  you-were-kicked: "<red> Вы были исключены из тусовки."
+  you-were-leave: "<red> Вы вышли из тусовки."
   no-invites: "<red> У вас нет приглашений."
-  not-exist-anymore: "<red> Пати больше не существует."
-  player-joined: "<green> Игрок <gold><player></gold> вступил в пати."
+  not-exist-anymore: "<red> Эта тусовка больше не существует."
+  player-joined: "<green> Игрок <gold><player></gold> вступил в вашу тусовку."
   invite-declined: "<red> Вы отклонили приглашение."
   info: |
-    <light_purple>Пати <dark_gray>| <white>Информация о пати:
+    <light_purple>Тусовка <dark_gray>| <white>Информация о тусовке:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
-  disband: "<white>Пати была расформирована."
+  disband: "<white>Тусовка была расформирована."
   only-leader-disband: "<red> Только лидер может расформировать команду."
-  leader-quit: "<red> Лидер пати вышел из игры. Новым лидером становится <gray><leader>"
-  member-quit: "<red> Участник пати <gray><member> вышел из игры"
+  leader-quit: "<red> Лидер тусовки вышел из игры. Новым лидером становится <gray><leader>"
+  member-quit: "<red> Участник тусовки <gray><member> вышел из игры"
 
 team:
   error-full: "<red>Не получилось автоматически закинуть игрока <player> с тусовки в команду, поскольку она полная!"
