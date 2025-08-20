@@ -4,8 +4,8 @@ global-chat-format: "\uE323<player_name><reset>: <message>"
 team-chat-format: "\uE325<player_name><reset>: <message>"
 staff-chat-format: "\uE327<player_name><reset>: <message>"
 vip-chat-format: "\uE328<player_name><reset>: <message>"
-sender-to-target-format: "\uE326 Вы → <target><reset>: <message>"
-target-to-sender-format: "\uE326<sender><reset> → Вы: <message>"
+sender-to-target-format: "\uE326 Вы » <target><reset>: <message>"
+target-to-sender-format: "\uE326<sender><reset> » Вы: <message>"
 alert-format: "<white><message></white>"
 private-chat-info-message: >
    Используйте <green>/tell <ник> <сообщение></green> для личного межсерверного чата
