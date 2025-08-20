@@ -10,7 +10,7 @@ alert-format: "<white><message></white>"
 private-chat-info-message: >
    Используйте <green>/tell <ник> <сообщение></green> для личного межсерверного чата
   <newline> Что бы переключить видимость используйте <green>/telltoggle</green>
-prefix: "<#FF5E1F>🌟</#FF5E1F><reset> » "
+prefix: "<#FF5E1F>★</#FF5E1F><reset> » "
 command-cooldown-message: "<reset>Команда будет доступна через <#FF5E1F><time></#FF5E1F>"
 command-unavailable-message: "<#FF1F1F>В данный момент команда не доступна</#FF1F1F>"
 invalid-usage-message: "<#FF1F1F>Неверное использование</#FF1F1F>"
