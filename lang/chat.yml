@@ -1,6 +1,6 @@
 none-chat-format: "<player_name><reset> <#FAB798>»<reset> <message>"
 local-chat-format: "\uE324<player_name><reset> <#FAB798>»<reset> <message>"
-global-chat-format: "\uE323<player_name><reset><#FAB798>»<reset> <message>"
+global-chat-format: "\uE323<player_name><reset> <#FAB798>»<reset> <message>"
 team-chat-format: "\uE325<player_name><reset> <#FAB798>»<reset> <message>"
 staff-chat-format: "\uE327<player_name><reset> <#FAB798>»<reset> <message>"
 vip-chat-format: "\uE328<player_name><reset> <#FAB798>»<reset> <message>"
