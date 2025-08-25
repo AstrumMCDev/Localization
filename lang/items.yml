@@ -212,7 +212,7 @@ kit_selector:
     - ""
     - "<gray>Нажмите, чтобы выбрать набор"
 
-poisonus_dagger:
+poisonous_dagger:
   name: '<#FF7800>Отравленный кинжал'
   lore:
     - ''
