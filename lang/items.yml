@@ -62,6 +62,8 @@ midas_sword:
     - "<gray>Острота усиливается при убийствах."
     - "<gray>Жертвы роняют золотые самородки."
 
+poseidon_trident_lightning:
+  name: "<gold>Трезубец Посейдона (Молния)"
 poseidon_trident:
   name: "<gold>Трезубец Посейдона"
   lore:
