@@ -1,5 +1,5 @@
 game: |-
-  <reset>Твоя статистика <#FF5E1F><game_key></#FF5E1F><reset> | <#FF5E1F><game_mode_key></#FF5E1F>
+  <reset>Статистика <green><target><reset> <#FF5E1F><game_key></#FF5E1F><reset> | <#FF5E1F><game_mode_key></#FF5E1F>
   <reset>
   <reset> | Время в игре: <#FF5E1F><play_time></#FF5E1F>
   <reset> | Убийства: <#FF5E1F><kills></#FF5E1F>
