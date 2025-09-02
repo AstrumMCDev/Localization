@@ -1,26 +1,26 @@
 game: |-
   <reset>Статистика <green><target><reset> <#FF5E1F><game_key><reset> | <#FF5E1F><game_mode_key><reset>
   <reset>
-  <reset> | Время в игре: <#FF5E1F><play_time><reset>
-  <reset> | Убийства: <#FF5E1F><kills><reset>
-  <reset> | Смерти: <#FF5E1F><deaths><reset>
-  <reset> | Победы: <#FF5E1F><wins><reset>
-  <reset> | Поражения: <#FF5E1F><losses><reset>
-  <reset> | Игр сыграно: <#FF5E1F><games_played><reset>
+  <reset> | Время в игре: <#FF5E1F><play_time><reset>
+  <reset> | Убийства: <#FF5E1F><kills><reset>
+  <reset> | Смерти: <#FF5E1F><deaths><reset>
+  <reset> | Победы: <#FF5E1F><wins><reset>
+  <reset> | Поражения: <#FF5E1F><losses><reset>
+  <reset> | Игр сыграно: <#FF5E1F><games_played><reset>
   <reset>
 
 battle_royale: |-
-  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset>
-  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset>
-  <reset> | Получено урона: <#FF5E1F><damage_taken><reset>
-  <reset> | Скрафчено легендарных предметов: <#FF5E1F><crafted_items><reset>
+  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset>
+  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset>
+  <reset> | Получено урона: <#FF5E1F><damage_taken><reset>
+  <reset> | Скрафчено легендарных предметов: <#FF5E1F><crafted_items><reset>
   <reset>
 
 deathmatch_uhc: |-
-  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset>
-  <reset> | Поставлено блоков: <#FF5E1F><blocks_placed><reset>
-  <reset> | Золотых яблок съедено: <#FF5E1F><golden_apples_eaten><reset>
-  <reset> | Крафтов: <#FF5E1F><golden_apples_eaten><reset>
-  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset>
-  <reset> | Получено урона: <#FF5E1F><damage_taken><reset>
+  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset>
+  <reset> | Поставлено блоков: <#FF5E1F><blocks_placed><reset>
+  <reset> | Золотых яблок съедено: <#FF5E1F><golden_apples_eaten><reset>
+  <reset> | Крафтов: <#FF5E1F><golden_apples_eaten><reset>
+  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset>
+  <reset> | Получено урона: <#FF5E1F><damage_taken><reset>
   <reset>
