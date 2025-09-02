@@ -1,18 +1,23 @@
 game: |-
-  <reset>Статистика <green><target><reset> <#FF5E1F><game_key></#FF5E1F><reset> | <#FF5E1F><game_mode_key></#FF5E1F>
+  <reset>Статистика <green><target><reset> <#FF5E1F><game_key><reset> | <#FF5E1F><game_mode_key><reset>
   <reset>
-  <reset> | Время в игре: <#FF5E1F><play_time></#FF5E1F>
-  <reset> | Убийства: <#FF5E1F><kills></#FF5E1F>
-  <reset> | Смерти: <#FF5E1F><deaths></#FF5E1F>
-  <reset> | Победы: <#FF5E1F><wins></#FF5E1F>
-  <reset> | Поражения: <#FF5E1F><losses></#FF5E1F>
-  <reset> | Игр сыграно: <#FF5E1F><games_played></#FF5E1F>
+  <reset> | Время в игре: <#FF5E1F><play_time><reset> 
+  <reset> | Убийства: <#FF5E1F><kills><reset> 
+  <reset> | Смерти: <#FF5E1F><deaths><reset> 
+  <reset> | Победы: <#FF5E1F><wins><reset> 
+  <reset> | Поражения: <#FF5E1F><losses><reset> 
+  <reset> | Игр сыграно: <#FF5E1F><games_played><reset> 
   <reset>
 
 battle_royale: |-
-  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked></#FF5E1F>
-  <reset> | Воскрешено союзников: <#FF5E1F><revives_given></#FF5E1F>
-  <reset> | Нанесено урона: <#FF5E1F><damage_dealt></#FF5E1F>
-  <reset> | Получено урона: <#FF5E1F><damage_taken></#FF5E1F>
-  <reset> | Скрафчено легендарных предметов: <#FF5E1F><crafted_items></#FF5E1F>
+  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset> 
+  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset> 
+  <reset> | Получено урона: <#FF5E1F><damage_taken><reset> 
+  <reset> | Скрафчено легендарных предметов: <#FF5E1F><crafted_items><reset> 
+  <reset>
+
+deathmatch_uhc: |-
+  <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset> 
+  <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset> 
+  <reset> | Получено урона: <#FF5E1F><damage_taken><reset> 
   <reset>
