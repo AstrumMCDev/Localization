@@ -154,6 +154,7 @@ check:
     <reset>
 
 win:
+  gems: " <yellow> <white>Вы получили <#C5FF1F><amount> <white>гемов за победу!"
   message: "  <white>Вы выиграли битву!"
   title: "   <#C5FF1F><bold>П<#B6FF28><bold>о<#A7FF31><bold>б<#98FF39><bold>е<#89FF42><bold>д<#7AFF4B><bold>а"
   subtitle: "<white>Вы выиграли!"

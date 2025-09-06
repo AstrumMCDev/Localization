@@ -276,7 +276,7 @@ fossil_sword:
     - '<#AFAFAF>ПКМ — умение:'
     - ' <#FFFFFF>Дает Регенерацию <#FF5555>IV <#FFFFFF>на 5 секунд'
     - ' <#FFFFFF>Даёт <#FFD166>Поглощение II <#FFFFFF>на <#F4A354>1 минуту'
-    - ' <#AFAFAF>Перезарядка: <#F4A354>45 секунд'
+    - ' <#AFAFAF>Перезарядка: <#F4A354>60 секунд'
     - ''
 
 short_diamond_sword:
