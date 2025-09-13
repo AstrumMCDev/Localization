@@ -1,4 +1,4 @@
-stage: "Стадия: <value>"
-game_duration: "Игра идёт <value>"
-alive_players: "Игроков в живых: <value>"
-alive_teams: "Команд в живых: <value>"
+stage: " <white> Стадия: $game.stages.<value>.name$"
+game_duration: " <white> Игра идёт <value>"
+alive_players: " <white> Игроков в живых: <value>"
+alive_teams: " <white> Команд в живых: <value>"
