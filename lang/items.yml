@@ -284,3 +284,9 @@ short_diamond_sword:
   lore:
     - ''
     - '<#AFAFAF>Для тех, кто всегда опаздывает!'
+
+cosmetic_item:
+  name: "<white>  <dark_gray>| <gray>ПКМ - <reset> Открыть косметику"
+  lore:
+    - ""
+    - "<gray>Нажмите, чтобы выбрать косметику"
