@@ -33,7 +33,7 @@ sos:
   announcement: |
     <reset>
      <white>Запрос на помощь <#C5FF1F>от <white><player> <gray>(<server>)
-    <reset> <hover:show_text:'Перейти на сервер'><click:run_command:'/server <server>'><gray>Нажмите, чтобы перейти на арену игрока</click></hover>
+    <reset> <hover:show_text:'Перейти на сервер'><gray>Нажмите, чтобы перейти на арену игрока</hover>
     <reset>
 
 pre-start-teleport: "  <white>Вы телепортированы на арену."
