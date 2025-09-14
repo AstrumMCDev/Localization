@@ -110,6 +110,14 @@ block:
   mace: "  <white>Булава запрещена"
 
 stages:
+  configure:
+    name: "Голосование"
+  countdown:
+    name: "Таймер"
+  play:
+    name: "Игра"
+  win:
+    name: "Конец"
   border-shrink: "Барьер сужается: <time>"
   waiting:
     name: "Ожидание"
