@@ -232,7 +232,7 @@ team:
   error-full: "<red>Не получилось автоматически закинуть игрока <player> с тусовки в команду, поскольку она полная!"
   already-in-team: "<red> Вы уже в команде."
   no-colors-available: "<red> Не удалось создать команду. Нет доступных цветов."
-  created: "<white> Вы создали команду #<gray><id> <gray>(<color><gray>)"
+  created: "<white> Вы создали команду #<gray><id>"
   not-in-team: "<red> Вы не в команде."
   only-leader-invite: "<red> Только лидер может приглашать."
   cannot-invite-self: "<red> Вы не можете пригласить себя!"
@@ -252,12 +252,11 @@ team:
   player-joined: "<green> Игрок <gold><player></gold> вступил в команду."
   invite-declined: "<red> Вы отклонили приглашение."
   info: |
-    <gold> Команда <dark_gray>| <white>Информация о команде #<gray><id> (<color><gray>):
+    <gold> Команда <dark_gray>| <white>Информация о команде #<gray><id> (<gray>):
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white> Команда #<gray><id> была расформирована."
   only-leader-disband: "<red> Только лидер может расформировать команду."
-  chat-format: "<player><reset>: <message>"
   leader-death: " <white> Лидер команды <gold><player> <white>умер."
   member-death: " <white> Игрок команды <gold><player> <white>умер."
   leader-quit: " <red> Лидер команды <player> вышел из игры."
