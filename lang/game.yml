@@ -79,8 +79,8 @@ item:
     info:
       - "<white>Текущая острота: <yellow><current_level></yellow>"
       - "<white>Следующий уровень: <yellow><next_level></yellow>"
-      - "<white>Стоимость: <green>32 изумруда за 1 уровень"
-      - "<white>Максимальный уровень: <red>8"
+      - "<white>Стоимость: <green><cost> изумруда за 1 уровень"
+      - "<white>Максимальный уровень: <red><max_level>"
   dragon-katana:
     blocked: " <white>Нельзя телепортироваться в блоки!"
   midas-sword:
