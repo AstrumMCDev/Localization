@@ -290,3 +290,9 @@ cosmetic_item:
   lore:
     - ""
     - "<gray>Нажмите, чтобы выбрать косметику"
+
+choose_legendary:
+  name: "<gray>ПКМ - <reset> Выбрать легу"
+  lore:
+    - ""
+    - "<gray>Нажмите, чтобы выбрать легу"
