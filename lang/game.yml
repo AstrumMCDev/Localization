@@ -246,7 +246,11 @@ team:
   max-members: "<red> Вы достигли лимит по приглашенным участникам!"
   target-already-in-team: "<red> Игрок уже в команде."
   player-invited: "<yellow> Игрок <gold><player></gold> приглашён в команду."
-  you-were-invited: "<yellow> Вас пригласили в команду #<gray><id>. Напишите <green>/team accept</green> или <red>/team decline</red>"
+  you-were-invited: |
+    <yellow> Вас пригласили в команду #<gray><id></gray>. Напишите <green>/team accept</green> или <red>/team decline</red></yellow>
+
+     <green>[Принять]</green> - нажмите для <green>/team accept</green>
+     <red>[Отклонить]</red> - нажмите для <red>/team decline</red>
   only-leader-kick: "<red> Только лидер может исключать."
   target-not-in-team: "<red> Игрок не в вашей команде."
   cannot-kick-self: "<red> Вы не можете исключить себя."
