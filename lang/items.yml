@@ -37,6 +37,12 @@ dragon_katana:
     - "<gray>Способности:"
     - "<gray>- Телепортация вперёд (ПКМ)"
 
+dragon_katana_short:
+  name: "<gold>Короткая телепортация (Катана Дракона)"
+
+dragon_katana_main:
+  name: "<gold>Основная телепортация (Катана Дракона)"
+
 ender_bow:
   name: "<gold>Эндер-лук"
   lore:
