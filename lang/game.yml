@@ -239,7 +239,7 @@ team:
   id-already-used: "<red>Данный ID уже используется."
   already-in-team: "<white><red> Вы уже в команде."
   no-colors-available: "<white><red> Не удалось создать команду. Нет доступных цветов."
-  created: "<white> Вы создали команду #<gray><id>"
+  created: "<white> Вы создали команду <gray>#<id>"
   not-in-team: "<white><red> Вы не в команде."
   only-leader-invite: "<white><red> Только лидер может приглашать."
   cannot-invite-self: "<white><red> Вы не можете пригласить себя!"
@@ -266,10 +266,10 @@ team:
   player-joined: "<green> Игрок <gold><player></gold> вступил в команду."
   invite-declined: "<white><red> Вы отклонили приглашение."
   info: |
-    <gold> Команда <dark_gray>| <white>Информация о команде #<gray><id> (<gray>):
+    <gold> Команда <dark_gray>| <white>Информация о команде <gray>#<id>:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
-  disband: "<white> Команда #<gray><id> была расформирована."
+  disband: "<white> Команда <gray>#<id><white> была расформирована."
   only-leader-disband: "<white><red> Только лидер может расформировать команду."
   leader-death: " <white> Лидер команды <gold><player> <white>умер."
   member-death: " <white> Игрок команды <gold><player> <white>умер."
