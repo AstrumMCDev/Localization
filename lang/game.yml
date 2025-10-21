@@ -218,7 +218,7 @@ party:
   player-kicked: "<green> Игрок <gold><player></gold> исключён из тусовки."
   player-leave: "<green> Игрок <gold><player></gold> вышел из тусовки."
   you-were-kicked: "<white><red> Вы были исключены из тусовки."
-  you-were-leave: "<red> Вы вышли из тусовки."
+  you-were-leave: "<white><red> Вы вышли из тусовки."
   no-invites: "<white><red> У вас нет приглашений."
   not-exist-anymore: "<white><red> Эта тусовка больше не существует."
   player-joined: "<green> Игрок <gold><player></gold> вступил в вашу тусовку."
@@ -322,7 +322,8 @@ revive:
 
 play-again: |
   
-   <white>В этот раз не повезло :( Хотите сыграть ещё - <hover:show_text:'<green>Сыграть ещё'>[жми сюда]</hover>
+   <white>В этот раз не повезло :( 
+  Хотите сыграть ещё - <hover:show_text:'<green>Сыграть ещё'><u><green>жми сюда</hover>
 
 kill:
   bar: "<st><victim></st> | Всего <red>-<kills> <reset>"
