@@ -13,7 +13,7 @@ timer-stop: |
 
 countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
 
-not-teaming: "<red> Тим - запрещён!"
+not-teaming: "<white><red> Тим - запрещён!"
 
 start: |
   <reset>
@@ -47,14 +47,14 @@ end-close: "  <white>Эндер мир закрыт"
 nether-close: "  <white>Незер закрыт"
 
 kit-gived: "  <white>Вы <#C5FF1F>получили <white>свой кит"
-only-spectating: "<red> Вы можете только следить за игрой"
+only-spectating: "<white><red> Вы можете только следить за игрой"
 kick:
   death: " Вы умерли и выбыли из игры :("
   disqualified: " Вас выгнали из игры"
   is-active: " Игра уже идет, выберите другой режим"
   full-server: "<white> Сервер забит, зайти могут только <yellow><bold> VIP <white>игроки!"
 
-already-stop: "  <white>Игра не запущена!"
+already-stop: "<white> <white>Игра не запущена!"
 stage-notification: "  <white>До следующей стадии <#1F9BFF><time></#1F9BFF>"
 
 sender:
@@ -102,8 +102,8 @@ craft:
     item: "<gray>- <yellow><item> <gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover>"
   legendary: "  <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
   limit:
-    player: "  <white>Вы исчерпали свой лимит."
-    server: "  <white>Этот предмет уже скрафтили."
+    player: "<white> <white>Вы исчерпали свой лимит."
+    server: "<white> <white>Этот предмет уже скрафтили."
 
 pre-start:
   title: "<b><gradient:#B34343:#E07329>Ста</gradient><gradient:#E07329:#E07329>рт</gradient></b>"
@@ -188,19 +188,19 @@ win:
 
 party:
   not-public-party: " <red>Эта тусовка не публичная!"
-  only-leader: "<red> Только лидер может менять статус тусовки."
-  only-leader-tp: "<red> Только лидер может телепортировать к себе участников"
+  only-leader: "<white><red> Только лидер может менять статус тусовки."
+  only-leader-tp: "<white><red> Только лидер может телепортировать к себе участников"
   status-change: "<light_purple>Тусовка <dark_gray>| <white><player> изменил статус тусовки на <status>"
   leader-warped: "<white> Лидер команды <green><player> переместил всех участников за ним."
   chat: "<light_purple>Тусовка <dark_gray>| <white><player><reset>: <message>"
-  already-in-party: "<red> Вы уже в тусовке."
+  already-in-party: "<white><red> Вы уже в тусовке."
   created: "<white> Вы создали тусовку! Пригласить людей - /party invite <игрок>"
-  not-in-party: "<red> Вы не в тусовке."
-  only-leader-invite: "<red> Только лидер может приглашать."
-  cannot-invite-self: "<red> Вы не можете пригласить себя!"
-  max-members: "<red> Вы достигли лимит по приглашенным участникам!"
-  target-already-in-party: "<red> Игрок уже в тусовке."
-  player-invited: "<yellow> Игрок <gold><player></gold> приглашён в тусовку."
+  not-in-party: "<white><red> Вы не в тусовке."
+  only-leader-invite: "<white><red> Только лидер может приглашать."
+  cannot-invite-self: "<white><red> Вы не можете пригласить себя!"
+  max-members: "<white><red> Вы достигли лимит по приглашенным участникам!"
+  target-already-in-party: "<white><red> Игрок уже в тусовке."
+  player-invited: "<white><yellow> Игрок <gold><player></gold> приглашён в тусовку."
   target-already-invited: "<red>Игрок <player> уже приглашён в тусовку."
   you-were-invited: |
     <reset>
@@ -212,23 +212,23 @@ party:
     <reset>
                             <accept_button>  <decline_button>
     <reset>
-  only-leader-kick: "<red> Только лидер может исключать."
-  target-not-in-party: "<red> Игрок не в вашей тусовке."
-  cannot-kick-self: "<red> Вы не можете исключить себя."
+  only-leader-kick: "<white><red> Только лидер может исключать."
+  target-not-in-party: "<white><red> Игрок не в вашей тусовке."
+  cannot-kick-self: "<white><red> Вы не можете исключить себя."
   player-kicked: "<green> Игрок <gold><player></gold> исключён из тусовки."
   player-leave: "<green> Игрок <gold><player></gold> вышел из тусовки."
-  you-were-kicked: "<red> Вы были исключены из тусовки."
+  you-were-kicked: "<white><red> Вы были исключены из тусовки."
   you-were-leave: "<red> Вы вышли из тусовки."
-  no-invites: "<red> У вас нет приглашений."
-  not-exist-anymore: "<red> Эта тусовка больше не существует."
+  no-invites: "<white><red> У вас нет приглашений."
+  not-exist-anymore: "<white><red> Эта тусовка больше не существует."
   player-joined: "<green> Игрок <gold><player></gold> вступил в вашу тусовку."
-  invite-declined: "<red> Вы отклонили приглашение."
+  invite-declined: "<white><red> Вы отклонили приглашение."
   info: |
     <light_purple>Тусовка <dark_gray>| <white>Информация о тусовке:
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white>Тусовка была расформирована."
-  only-leader-disband: "<red> Только лидер может расформировать команду."
+  only-leader-disband: "<white><red> Только лидер может расформировать команду."
   leader-quit: "<red> Лидер тусовки вышел из игры. Новым лидером становится <gray><leader>"
   member-quit: "<red> Участник тусовки <gray><member> вышел из игры"
 
@@ -237,38 +237,40 @@ team:
   error-full: "<red>Не получилось автоматически закинуть игрока <player> с тусовки в команду, поскольку она полная!"
   invalid-id: "<red>Неверный ID команды: введите от 1 до 1000"
   id-already-used: "<red>Данный ID уже используется."
-  already-in-team: "<red> Вы уже в команде."
-  no-colors-available: "<red> Не удалось создать команду. Нет доступных цветов."
+  already-in-team: "<white><red> Вы уже в команде."
+  no-colors-available: "<white><red> Не удалось создать команду. Нет доступных цветов."
   created: "<white> Вы создали команду #<gray><id>"
-  not-in-team: "<red> Вы не в команде."
-  only-leader-invite: "<red> Только лидер может приглашать."
-  cannot-invite-self: "<red> Вы не можете пригласить себя!"
-  max-members: "<red> Вы достигли лимит по приглашенным участникам!"
-  target-already-in-team: "<red> Игрок уже в команде."
-  player-invited: "<yellow> Игрок <gold><player></gold> приглашён в команду."
+  not-in-team: "<white><red> Вы не в команде."
+  only-leader-invite: "<white><red> Только лидер может приглашать."
+  cannot-invite-self: "<white><red> Вы не можете пригласить себя!"
+  max-members: "<white><red> Вы достигли лимит по приглашенным участникам!"
+  target-already-in-team: "<white><red> Игрок уже в команде."
+  player-invited: "<white><yellow> Игрок <gold><player></gold> приглашён в команду."
   you-were-invited: |
-    <yellow> Вас пригласили в команду #<gray><id></gray>. Напишите <green>/team accept</green> или <red>/team decline</red></yellow>
+    
+    <white><yellow> Вас пригласили в команду <reset><sender>
+    
+     <reset><hover:show_text:''><click:run_command:'/team accept'><white> <green><u>Принять</click></hover>
 
-     <green><click:run_command:'/team accept'>[Принять]</click></green> - нажмите для <green>/team accept</green>
-     <red><click:run_command:'/team decline'>[Отклонить]</click></red> - нажмите для <red>/team decline</red>
+     <reset><hover:show_text:''><click:run_command:'/team decline'><white> <red><u>Отклонить</click></hover>
 
-  only-leader-kick: "<red> Только лидер может исключать."
-  target-not-in-team: "<red> Игрок не в вашей команде."
-  cannot-kick-self: "<red> Вы не можете исключить себя."
+  only-leader-kick: "<white><red> Только лидер может исключать."
+  target-not-in-team: "<white><red> Игрок не в вашей команде."
+  cannot-kick-self: "<white><red> Вы не можете исключить себя."
   player-kicked: "<green> Игрок <gold><player></gold> исключён из команды."
   player-leave: "<green> Игрок <gold><player></gold> вышел из команды."
-  you-were-kicked: "<red> Вы были исключены из команды."
+  you-were-kicked: "<white><red> Вы были исключены из команды."
   you-were-leave: "<red> Вы вышли из команды."
-  no-invites: "<red> У вас нет приглашений."
-  not-exist-anymore: "<red> Команда больше не существует."
+  no-invites: "<white><red> У вас нет приглашений."
+  not-exist-anymore: "<white><red> Команда больше не существует."
   player-joined: "<green> Игрок <gold><player></gold> вступил в команду."
-  invite-declined: "<red> Вы отклонили приглашение."
+  invite-declined: "<white><red> Вы отклонили приглашение."
   info: |
     <gold> Команда <dark_gray>| <white>Информация о команде #<gray><id> (<gray>):
     <reset> <gray>• <white>Лидер: <gray><leader>
     <reset> <gray>• <white>Участники: <gray><members>
   disband: "<white> Команда #<gray><id> была расформирована."
-  only-leader-disband: "<red> Только лидер может расформировать команду."
+  only-leader-disband: "<white><red> Только лидер может расформировать команду."
   leader-death: " <white> Лидер команды <gold><player> <white>умер."
   member-death: " <white> Игрок команды <gold><player> <white>умер."
   leader-quit: " <red> Лидер команды <player> вышел из игры."
@@ -292,7 +294,7 @@ vote:
       <#AFAFAF>Меню голосования - <#FFFF55>/vote.
     <reset>
     <reset>
-  empty: "  <white>Голосование не началось!"
+  empty: "<white> <white>Голосование не началось!"
   end: "  <white>Голосование закончилось, все команды получили бонусы и выбрали своих лидеров"
   leader: |
     <reset>
@@ -309,10 +311,10 @@ bonus:
   subtitle: "<green> Бонус - <bonus>"
 
 revive:
-  too-far-from-center: "<red> Вы слишком далеко от центра!"
-  no-team: "<red> У вас нет команды"
-  cannot-revive-player: "<red> Этого игрока нельзя воскресить"
-  only-teammate: "<red> Воскресить можно только тиммейта"
+  too-far-from-center: "<white><red> Вы слишком далеко от центра!"
+  no-team: "<white><red> У вас нет команды"
+  cannot-revive-player: "<white><red> Этого игрока нельзя воскресить"
+  only-teammate: "<white><red> Воскресить можно только тиммейта"
   not-enough-hearts: "<red> У вас недостаточно сердец для воскрешения (нужно 5)"
   broadcast: "<white> Игрок <green><player></green> <white>был возрожден!"
   success: "<green> Вы успешно воскресили <yellow><target></yellow>"
