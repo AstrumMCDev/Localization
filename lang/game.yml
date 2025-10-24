@@ -146,7 +146,7 @@ stages:
     name: "Открытие ада"
   end-open:
     name: "Открытие энда"
-  close:
+  final:
     name: "Финал"
   stop:
     name: "Конец"
