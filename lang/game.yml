@@ -143,7 +143,7 @@ stages:
   narrowing:
     name: "Сужение"
   nether-open:
-    name: "Открытие ада"
+    name: "Незер"
   end-open:
     name: "Открытие энда"
   final:
