@@ -72,7 +72,7 @@ item:
   emerald-blade:
     hold: " <red>Вы должны держать Изумрудный Клинок! "
     max-lvl: " <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
-    need-amount: " <white>Для улучшения нужно <#C5FF1F>64 изумруда"
+    need-amount: " <white>Для улучшения нужно <#C5FF1F><amount> изумруда"
     success-upgrade: " <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
     gui: "<green>Улучшение Изумрудного Клинка"
     confirm: "<green>Подтвердить улучшение"
