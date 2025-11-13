@@ -4,5 +4,5 @@ player-not-found: "<red>Игрок не найден или он не в сет�
 voice-notify: |
   <reset>
   <reset>    <color:#ffcb96>Вы играете без войс-чата!</color>
-  <reset> <hover:show_text:'<green>Скачать [Fabric 1.21.4]'><click:open_url:'https://static.astrummc.net/files/voicechat-fabric-1.21.4-2.5.35.jar'><color:#7fff3b>[НАЖМИТЕ ЗДЕСЬ, ЧТОБЫ СКАЧАТЬ МОД]</color></click></hover>
+  <reset> <hover:show_text:'<green>Скачать'><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'><color:#7fff3b>[НАЖМИТЕ ЗДЕСЬ, ЧТОБЫ СКАЧАТЬ МОД]</color></click></hover>
   <reset>
