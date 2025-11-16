@@ -5,7 +5,7 @@ voice-notify: |
   <reset>
   <reset>    <color:#ffcb96>Вы играете без войс-чата!</color>
   <reset> <hover:show_text:'<green>Скачать мод с основной страницы'><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'><color:#7fff3b>[НАЖМИТЕ ЗДЕСЬ, ЧТОБЫ СКАЧАТЬ МОД]</color></click></hover>
-  <reset>    <color:#ffcb96>Если эта версия вам не подходит — скачайте наши версии для Minecraft 1.21.4:</color>
-  <reset> <hover:show_text:'<green>Скачать Fabric 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/rp/voice/voicechat-fabric-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FABRIC 1.21.4]</color></click></hover>
-  <reset> <hover:show_text:'<green>Скачать Forge 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/rp/voice/voicechat-forge-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FORGE 1.21.4]</color></click></hover>
+  <reset>
+  <reset><color:#ffcb96>Если эта версия вам не подходит — скачайте наши версии для Minecraft 1.21.4:</color>
+  <reset> <hover:show_text:'<green>Скачать Fabric 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/rp/voice/voicechat-fabric-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FABRIC 1.21.4]</color></click></hover> <hover:show_text:'<green>Скачать Forge 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/rp/voice/voicechat-forge-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FORGE 1.21.4]</color></click></hover>
   <reset>
