@@ -271,8 +271,6 @@ team:
     
      <reset><hover:show_text:''><click:run_command:'/team accept'><white> <green><u>Принять</click></hover>
 
-     <reset><hover:show_text:''><click:run_command:'/team decline'><white> <red><u>Отклонить</click></hover>
-
   only-leader-kick: "<white><red> Только лидер может исключать."
   target-not-in-team: "<white><red> Игрок не в вашей команде."
   cannot-kick-self: "<white><red> Вы не можете исключить себя."
