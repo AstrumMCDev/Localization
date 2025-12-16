@@ -20,13 +20,11 @@ start: |
   <reset> <gray>| <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>началась!
   <reset> <gray>| <white>Победит сильнейший!
   <reset>
-
 stop: |
   <reset>
   <reset> <gray>|  <#FF551F><bold>К<#FF5C1F><bold>о<#FF6320><bold>р<#FF6A20><bold>о<#FF7120><bold>л<#FF7820><bold>е<#FF7F21><bold>в<#FF8621><bold>с<#FF8D21><bold>к<#FF8621><bold>а<#FF7F21><bold>я <#FF7120><bold>б<#FF6A20><bold>и<#FF6320><bold>т<#FF5C1F><bold>в<#FF551F><bold>а <reset><white>закончилась!
   <reset> <gray>| <white>Увидимся в следующий раз!
   <reset>
-
 sos:
   confirm: "  <white>Внимание, <green>подтвердите <white>запрос, за злоупотребление последует <red>наказание!"
   send: "  Запрос отправлен! Помощь в пути..."
@@ -38,8 +36,8 @@ sos:
 
 pre-start-teleport: "  <white>Вы телепортированы на арену."
 
-pvp-true: "  <white>PvP <#CFFF1F>включено<white>!"
-pvp-false: "  <white>PvP <#FF551F>выключено<white>!"
+pvp-true: "  <white>PvP <#FF1F1F>включено<white>!"
+pvp-false: "  <white>PvP <#1FFF5E>выключено<white>!"
 border-shrink: " <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
 death-spectator: "  <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
 
