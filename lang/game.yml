@@ -36,8 +36,8 @@ sos:
 
 pre-start-teleport: "  <white>Вы телепортированы на арену."
 
-pvp-true: "  <white>PvP <#FF1F1F>включено<white>!"
-pvp-false: "  <white>PvP <#1FFF5E>выключено<white>!"
+pvp-true: "  <white>PvP <#FF1F1F>включено"
+pvp-false: "  <white>PvP <#1FFF5E>выключено"
 border-shrink: " <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
 death-spectator: "  <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
 
