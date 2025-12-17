@@ -104,8 +104,8 @@ craft:
     server: "<white> <white>Этот предмет уже скрафтили."
 
 pre-start:
-  title: "<b><gradient:#B34343:#E07329>Ста</gradient><gradient:#E07329:#E07329>рт</gradient></b>"
-  subtitle: "<gradient:#4C8F23:#8FA760>Схватка н</gradient><gradient:#8FA760:#8FA760>ачалась!</gradient>"
+  title: ""
+  subtitle: "<b><gradient:#B34343:#E07329>Ста</gradient><gradient:#E07329:#E07329>рт</gradient></b>"
 
 timer:
   title: "<#FF8D21>▶ <#FFDD6C><time></#FFDD6C> <#FF8D21>◀"
