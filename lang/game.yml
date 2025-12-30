@@ -98,7 +98,7 @@ craft:
   available:
     header: "<gold>Доступные крафты:"
     item: "<gray>- <yellow><item> <gray><hover:show_text:'<green>Нажми, чтобы посмотреть крафт'>(клик)</hover>"
-  legendary: "  <white>Игрок <#C5FF1F><player> <white>скрафтил <gold><item></gold>"
+  legendary: "  <white>Игрок <white><player> <white>скрафтил <gold><item></gold>"
   limit:
     player: "<white> <white>Вы исчерпали свой лимит."
     server: "<white> <white>Этот предмет уже скрафтили."
