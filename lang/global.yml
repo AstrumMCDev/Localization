@@ -3,6 +3,7 @@ connecting: "<green>Подключение..."
 player-not-found: "<red>Игрок не найден или он не в сети."
 voice-notify: |
   <reset>  <gradient:#ffa585:#ffeda0>Вы играете без войс-чата! <white>
+  <reset>  <gradient:#ffa585:#ffeda0>За установку вы получите <#FF3C00>бесплатный кейс <white>
   <reset>  <gradient:#ffa585:#ffeda0>↓ <b>Скачать мод</b> ↓
   <reset>
   <reset>  <click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'><#19dd6b>[modrinth]</click>  <#8d553b><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'>[minecraft-inside]</click>  <#f16436><click:open_url:'https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat'>[curseforge]</click>
