@@ -2,10 +2,7 @@ no-servers: "<red>На данный момент свободных сервер
 connecting: "<green>Подключение..."
 player-not-found: "<red>Игрок не найден или он не в сети."
 voice-notify: |
-  <reset>
-  <reset>    <color:#ffcb96>Вы играете без войс-чата!</color>
-  <reset> <hover:show_text:'<green>Скачать мод с основной страницы'><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'><color:#7fff3b>[НАЖМИТЕ ЗДЕСЬ, ЧТОБЫ СКАЧАТЬ МОД]</color></click></hover>
-  <reset>
-  <reset><color:#ffcb96>Если эта версия вам не подходит — скачайте наши версии для Minecraft 1.21.4:</color>
-  <reset> <hover:show_text:'<green>Скачать Fabric 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/voice/voicechat-fabric-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FABRIC 1.21.4]</color></click></hover> <hover:show_text:'<green>Скачать Forge 1.21.4 (v2.5.35)'><click:open_url:'https://static.astrummc.net/files/voice/voicechat-forge-1.21.4-2.5.35.jar'><color:#7fff3b>[СКАЧАТЬ FORGE 1.21.4]</color></click></hover>
-  <reset>
+  <reset><gradient:#ffa585:#ffeda0>Вы играете без войс-чата! <white>
+  <reset><gradient:#ffa585:#ffeda0>Скачать мод⤵︎
+  <reset><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'><#19dd6b>[modrinth]</click> <#8d553b><click:open_url:'https://minecraft-inside.ru/mods/185344-simple-voice-chat.html'>[minecraft-inside]</click> <#f16436><click:open_url:'https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat'>[curseforge]</click>
+
