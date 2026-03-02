@@ -20,7 +20,7 @@ deathmatch_uhc: |-
   <reset> | Пройдено блоков: <#FF5E1F><blocks_walked><reset>
   <reset> | Поставлено блоков: <#FF5E1F><blocks_placed><reset>
   <reset> | Золотых яблок съедено: <#FF5E1F><golden_apples_eaten><reset>
-  <reset> | Крафтов: <#FF5E1F><golden_apples_eaten><reset>
+  <reset> | Крафтов: <#FF5E1F><total_items_crafted><reset>
   <reset> | Нанесено урона: <#FF5E1F><damage_dealt><reset>
   <reset> | Получено урона: <#FF5E1F><damage_taken><reset>
   <reset>
