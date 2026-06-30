@@ -26,13 +26,13 @@ stop: |
   <reset> <gray>| <white>Увидимся в следующий раз!
   <reset>
 sos:
-  confirm: "  <white>Внимание, <green>подтвердите <white>запрос, за злоупотребление последует <red>наказание!"
-  send: "  Запрос отправлен! Помощь в пути..."
+  confirm: "<newline><white>Внимание, <green>подтвердите <white>запрос и напишите команду ещё раз, за злоупотребление последует <red>наказание!<newline>"
+  send: "<newline><white> Запрос отправлен! Помощь в пути...<newline>"
   announcement: |
-    <reset>
+    <white>
      <white>Запрос на помощь <#C5FF1F>от <white><player> <gray>(<server>)
-    <reset> <hover:show_text:'Перейти на сервер'><gray>Нажмите, чтобы перейти на арену игрока</hover>
-    <reset>
+    <white> <hover:show_text:'Перейти на сервер'><gray>Нажмите, чтобы перейти на арену игрока</hover>
+    <white>
 
 pre-start-teleport: "  <white>Вы телепортированы на арену."
 
